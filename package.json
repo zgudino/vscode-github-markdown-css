@@ -1,33 +1,29 @@
 {
-  "name": "github-markdown-css",
-  "version": "2.1.0",
-  "description": "The minimal amount of CSS to replicate the GitHub Markdown style",
-  "license": "MIT",
-  "repository": "sindresorhus/github-markdown-css",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "name": "vscode-github-markdown-css",
+  "version": "1.0.0",
+  "description": "Markdown CSS inspirado en GitHub exclusivo para VSCode",
+  "main": "index.js",
   "scripts": {
-    "generate": "github-markdown-css !> github-markdown.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "github-markdown.css"
-  ],
-  "keywords": [
-    "browser",
-    "github",
-    "markdown",
-    "md",
-    "css",
-    "style",
-    "stylesheet"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgudino/vscode-github-markdown-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgudino/vscode-github-markdown-css/issues"
+  },
+  "homepage": "https://github.com/zgudino/vscode-github-markdown-css#readme",
   "devDependencies": {
-    "generate-github-markdown-css": "^1.0.1"
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true
+    }
   }
 }

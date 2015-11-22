@@ -1,56 +1,41 @@
-# github-markdown-css
+# vscode-github-markdown-css
+> Markdown CSS inspirado en GitHub exclusivo para VSCode
 
-> The minimal amount of CSS to replicate the GitHub Markdown style
+![Screenshot](images/screenshot.png)
 
-[<img src="https://cloud.githubusercontent.com/assets/170270/5219062/f22a978c-7685-11e4-8316-af25b6c89bc0.png" width="300">](http://sindresorhus.com/github-markdown-css)
+## Raison D'etre
+> Soy fanatico de GitHub markdown: Minimo, simple y limpio.
 
-## [Demo](http://sindresorhus.com/github-markdown-css)
+VSCode, por defecto, incluye CSS markdown segun el tema seleccionado. Sin embargo ninguno cumple mi necesidad. Esto me llevo a explorar diferente temas al [marketplace](https://marketplace.visualstudio.com/#VSCode):
 
+* [Markdown Theme Kit](https://marketplace.visualstudio.com/items/ms-vscode.Theme-MarkdownKit)
+* [GitHub Clean White Theme](https://marketplace.visualstudio.com/items/saviorisdead.Theme-GitHubCleanWhite)
 
-## Install
+Estos **excelente** temas, obviamente, abarcan todo; Desde el UI, editor de código y markdown. Es una de esos casos donde *"tomalo todo o dejalo todo"* :sparkles:
 
-Download [manually](https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css) or with a package-manager.
+## Solución
+CSS visualmente leal a GitHub que no obstruya con el tema seleccionado. Repita conmigo **Harmonia** :sparkles:
 
-```sh
-$ npm install --save github-markdown-css
+## Uso
+Descargue la [hoja de estilo]() al directorio raíz de su proyecto. Luego dentro de `.vscode/settings.json` especifique la ubicación.
+
+```json
+{
+	"markdown.styles": [
+		"./github-markdown.min.css"
+	]
+}
 ```
 
-```sh
-$ bower install --save github-markdown-css
-```
+## Por hacer
+* [ ] Distribución via CDN
+* [ ] Ajustes `token.css` parezca más al color de sintaxis de GitHub
 
+## Créditos
+Agradezco y otorgó crédito a los siguiente proyectos:
 
-## Usage
+* [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - Sindre Sorhus
+* [tokens.css](https://github.com/Microsoft/vscode/blob/master/src/vs/languages/markdown/common/tokens.css) - VSCode
 
-Import the `github-markdown.css` file and add a `markdown-body` class to the container of your rendered Markdown and set a width for it. GitHub uses `790px` width and `30px` padding.
-
-```html
-<link rel="stylesheet" href="github-markdown.css">
-<style>
-	.markdown-body {
-		min-width: 200px;
-		max-width: 790px;
-		margin: 0 auto;
-		padding: 30px;
-	}
-</style>
-<article class="markdown-body">
-	<h1>Unicorns</h1>
-	<p>All the things</p>
-</article>
-```
-
-
-## How
-
-See [`generate-github-markdown-css`](https://github.com/sindresorhus/generate-github-markdown-css) for how it's generated and ability to generate your own.
-
-
-## Dev
-
-Run `npm run generate` to update the CSS.
-
-
-## License
-
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+## Licencia
+2015 MIT © [Zahir Gudiño](https://github.com/zgudino) <br />
