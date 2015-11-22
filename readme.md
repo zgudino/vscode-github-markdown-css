@@ -17,7 +17,7 @@ Estos **excelente** temas, obviamente, abarcan todo; Desde el UI, editor de cód
 CSS visualmente leal a GitHub que no obstruya con el tema seleccionado. Repita conmigo **Harmonia** :sparkles:
 
 ## Uso
-Descargue la [hoja de estilo]() al directorio raíz de su proyecto. Luego dentro de `.vscode/settings.json` especifique la ubicación.
+Descargue la [hoja de estilo](https://raw.githubusercontent.com/zgudino/vscode-github-markdown-css/v2.1.1/dist/github-markdown.min.css) al directorio raíz de su proyecto. Luego dentro de `.vscode/settings.json` especifique la ubicación.
 
 ```json
 {
