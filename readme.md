@@ -11,7 +11,7 @@ VSCode, por defecto, incluye CSS markdown segun el tema seleccionado. Sin embarg
 * [Markdown Theme Kit](https://marketplace.visualstudio.com/items/ms-vscode.Theme-MarkdownKit)
 * [GitHub Clean White Theme](https://marketplace.visualstudio.com/items/saviorisdead.Theme-GitHubCleanWhite)
 
-Estos **excelente** temas, obviamente, abarcan todo; Desde el UI, editor de código y markdown. Es una de esos casos donde *"tomalo todo o dejalo todo"* :sparkles:
+Estos **excelente** temas, obviamente, abarcan todo; Desde el UI, editor de código y markdown. Es una de esos casos donde *"tomalo todo o dejalo todo"*
 
 ## Solución
 CSS visualmente leal a GitHub que no obstruya con el tema seleccionado. Repita conmigo **Harmonia** :sparkles:
