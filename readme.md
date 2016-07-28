@@ -17,18 +17,28 @@ Estos **excelente** temas, obviamente, abarcan todo; Desde el UI, editor de cód
 CSS visualmente leal a GitHub que no obstruya con el tema seleccionado. Repita conmigo **Harmonia** :sparkles:
 
 ## Uso
-Descargue la [hoja de estilo](https://raw.githubusercontent.com/zgudino/vscode-github-markdown-css/v2.1.1/dist/github-markdown.min.css) al directorio raíz de su proyecto. Luego dentro de `.vscode/settings.json` especifique la ubicación.
+~~Descargue la [hoja de estilo](https://raw.githubusercontent.com/zgudino/vscode-github-markdown-css/v2.1.1/dist/github-markdown.min.css) al directorio raíz de su proyecto.~~ Dentro de `.vscode/settings.json` especifique la ubicación.
 
 ```json
 {
 	"markdown.styles": [
-		"./github-markdown.min.css"
+		"https://rawgit.com/zgudino/vscode-github-markdown-css/master/dist/github-markdown.min.css"
+	]
+}
+```
+
+O, muy bien puede agregar a su configuracion de usuario.
+
+```json
+{
+	"markdown.styles": [
+		"https://rawgit.com/zgudino/vscode-github-markdown-css/master/dist/github-markdown.min.css"
 	]
 }
 ```
 
 ## Por hacer
-* [ ] Distribución via CDN
+* [x] Distribución via CDN (_RawGit_)
 * [ ] Ajustes `token.css` parezca más al color de sintaxis de GitHub
 
 ## Créditos
